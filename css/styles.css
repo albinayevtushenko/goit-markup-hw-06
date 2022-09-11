@@ -303,7 +303,7 @@ ul {
 /* our forms */
 
 .modal-form-title {
-  margin-bottom: 30px;
+  margin-bottom: 12px;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2;
@@ -411,6 +411,7 @@ ul {
 }
 .modal-form-check-label {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
@@ -727,7 +728,7 @@ ul {
 /* footer form */
 
 .footer-form {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .footer-form-wrapper {
@@ -750,6 +751,7 @@ ul {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: transparent;
+  color: var(--page-bg-color);
 }
 
 .footer-form-input::placeholder {
@@ -811,7 +813,6 @@ ul {
   transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func),
     box-shadow var(--transition-dur-and-func);
 }
-
 
 .button:hover,
 .button:focus {
